@@ -131,4 +131,4 @@ st.pyplot(fig)
 st.write("---")
 
 # Yêu cầu 9: Hiển thị họ tên và MSSV ở cuối trang với chữ nhỏ
-st.caption("Người tạo ứng dụng: **Nguyễn Văn A** | MSSV: **12345678**")
+st.caption("Người tạo ứng dụng: **Trần Ngọc Hải Long** | MSSV: **038208000489**)
