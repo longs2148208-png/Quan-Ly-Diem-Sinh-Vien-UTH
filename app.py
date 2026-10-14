@@ -1,4 +1,5 @@
 #1 Tạo Dataframe
+import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -19,8 +20,8 @@ data = {"Tên" :
         " Điểm cuối kì " : [ 4,5,6,7,8,9,7,6,7,9]
          }
 df = pd.DataFrame(data)
-print ("--- Bảng Dữ Liệu ---")
-st.dataframe(df, use_container_width=True)
+# print("--- Bảng Dữ Liệu ---")
+# display(df)
 
 #2 Tính Điểm Tổng Kết
 df["Điểm Tổng Kết"] = (0.2 * df[" Điểm chuyên cần "] + 0.3 * df[" Điểm giữa Kì "] + 0.5 * df[" Điểm cuối kì "]).round(2)
