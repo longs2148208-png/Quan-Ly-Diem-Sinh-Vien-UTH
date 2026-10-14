@@ -20,7 +20,7 @@ data = {"Tên" :
          }
 df = pd.DataFrame(data)
 print ("--- Bảng Dữ Liệu ---")
-display(df)
+st.dataframe(df, use_container_width=True)
 
 #2 Tính Điểm Tổng Kết
 df["Điểm Tổng Kết"] = (0.2 * df[" Điểm chuyên cần "] + 0.3 * df[" Điểm giữa Kì "] + 0.5 * df[" Điểm cuối kì "]).round(2)
